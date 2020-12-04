@@ -1,0 +1,7 @@
+<!--pages/dash/dash.wxml-->
+<text>Welcome to your dashboard</text>
+<image class="avatar">Avatar goes here </image>
+<view class="selection">nearby vets</view>
+<view class="selection"> Access pet health</view>
+<view class="selection"> Manage Appointments </view>
+<view class="selection"> Profile </view>

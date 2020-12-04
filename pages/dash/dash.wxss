@@ -1,0 +1,19 @@
+/* pages/dash/dash.wxss */
+.selection {
+  padding: 5px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 5px;
+  justify-content: center;
+  text-align: center;
+  height: 90px;
+  width: 90px
+}
+.avatar {
+  border: 1px blue solid;
+  border-radius: 360px;
+  width: 112px;
+  height: 112px;
+  display: block;
+  justify-content: center;
+}
