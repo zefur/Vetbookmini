@@ -1,13 +1,19 @@
 /* pages/dash/dash.wxss */
-.selection {
-  padding: 5px;
-  border: 1px solid black;
-  display: inline-block;
-  margin: 5px;
+.img-cont {
+  width: 100vw;
+  height: 120px;
+  display: flex;
   justify-content: center;
+  
+}
+.selection {
+  border: 1px solid black;
+  margin: 10px;
   text-align: center;
   height: 90px;
-  width: 90px
+  width: 90px;
+  border-radius: 10px;
+
 }
 .avatar {
   border: 1px blue solid;
@@ -15,5 +21,13 @@
   width: 112px;
   height: 112px;
   display: block;
-  justify-content: center;
+  align-self: center;
+}
+.section {
+  margin-top: 20rpx;
+  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  
 }

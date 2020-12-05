@@ -5,7 +5,14 @@ Page({
    * Page initial data
    */
   data: {
-
+    petInfo: [{
+      name: "Cherry",
+      breed: "russian blue"
+    },
+  {
+    name: "kohin",
+    breed: "alsation"
+  }]
   },
 
   /**

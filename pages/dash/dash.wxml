@@ -1,7 +1,20 @@
 <!--pages/dash/dash.wxml-->
-<text>Welcome to your dashboard</text>
-<image class="avatar">Avatar goes here </image>
-<view class="selection">nearby vets</view>
-<view class="selection"> Access pet health</view>
-<view class="selection"> Manage Appointments </view>
-<view class="selection"> Profile </view>
+<view class="img-cont">
+<image class="avatar">Avatar goes here</image></view>
+
+
+
+<view class="section">
+  <navigator url="/pages/clinics/clinics">
+    <view class="selection">nearby vets</view>
+  </navigator>
+  <navigator url="/pages/pets/pets">
+    <view class="selection">Access pet health</view>
+  </navigator>
+  <navigator url="/pages/booking/booking">
+    <view class="selection">Manage Appointments </view>
+  </navigator>
+  <navigator url="/pages/profile/profile">
+    <view class="selection">Profile</view>
+  </navigator>
+</view>

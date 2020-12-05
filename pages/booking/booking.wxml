@@ -1,2 +1,22 @@
 <!--pages/booking/booking.wxml-->
 <text>pages/booking/booking.wxml</text>
+<block wx:for={{bookings}}>
+  <view class="card">
+    <text>
+      {{item.clinic}}
+    </text>
+    <text>
+      {{item.date}}
+    </text>
+    <text>
+      {{item.date}}
+    </text>
+    <text>
+      {{item.vet}}
+    </text>
+  </view>
+
+</block>
+<view>
+
+</view>

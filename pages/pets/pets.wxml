@@ -1,2 +1,14 @@
 <!--pages/pets/pets.wxml-->
 <text>pages/pets/pets.wxml</text>
+<swiper indicator-dots="true">
+<block wx:for="{{petInfo}}" >
+    <swiper-item>
+      
+      <text >"{{item.name}}"</text>
+      <text>"{{item.breed}}"</text>
+      
+    </swiper-item>
+  </block>
+  
+</swiper>
+<text>{{petInfo}}</text>

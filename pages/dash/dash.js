@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  navigateToProfile: function (){
+    wx.navigateTo({
+      url: '../profile',
+    })
   }
 })
