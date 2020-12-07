@@ -12,3 +12,21 @@
 page {
   background-color:#ECF4F3;
 }
+.image-container{
+  display: flex;
+  justify-content: center;
+}
+.avatar {
+  border: 1px blue solid;
+  border-radius: 360px;
+  width: 112px;
+  height: 112px;
+  display: block;
+}
+.title-container {
+  text-align: center;
+}
+.title {
+  font-weight: bold;
+  font-size: x-large;
+}

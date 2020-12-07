@@ -5,14 +5,30 @@ Page({
    * Page initial data
    */
   data: {
+    clinics: [{
 
+    }]
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+    let page = this;
+    wx.request({
+      url: "localhost:3000/api/v1/clinics",
+      method: 'GET',
+      success(res) {
+        const clinics = res.data.clinics;
 
+        // Update local data
+        page.setData({
+          clinics: clinics
+        });
+        console.log(clinics)
+        wx.hideToast();
+      }
+    });
   },
 
   /**

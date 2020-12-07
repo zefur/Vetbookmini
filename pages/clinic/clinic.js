@@ -1,15 +1,11 @@
-// pages/booking/booking.js
+// pages/clinic/clinic.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-    bookings: [{
-      clinic: "happy clinic",
-      date: "25/12/2020",
-      time: "12:00"
-    }]
+
   },
 
   /**

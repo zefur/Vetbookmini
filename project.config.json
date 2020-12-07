@@ -64,6 +64,12 @@
         {
           "name": "pages/dash/dash",
           "pathName": "pages/dash/dash",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/pets/pets",
+          "pathName": "pages/pets/pets",
           "scene": null
         }
       ]

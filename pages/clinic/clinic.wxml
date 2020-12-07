@@ -1,0 +1,17 @@
+<!--pages/clinic/clinic.wxml-->
+<text>pages/clinic/clinic.wxml</text>
+<view>
+</view>
+<view>
+<block wx:for="{{vets}}">
+  <view class="card-product">
+  <image src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+  <view class="card-product-infos">
+    <h2>Product name</h2>
+    <p>Product description with <strong>relevant info</strong> only.</p>
+  </view>
+</view>
+
+
+</block>
+</view>

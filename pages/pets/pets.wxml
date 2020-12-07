@@ -1,11 +1,28 @@
 <!--pages/pets/pets.wxml-->
 <text>pages/pets/pets.wxml</text>
-<swiper indicator-dots="true">
-<block wx:for="{{petInfo}}" >
+<swiper indicator-dots="true" class="swiper-top">
+<block wx:for="{{petInfo}}"  wx:key="item">
     <swiper-item>
+      <view class="image-container">
+        <image class="avatar"></image>
+      </view>
       
-      <text >"{{item.name}}"</text>
-      <text>"{{item.breed}}"</text>
+      <view class="title-container"> 
+         <text class="title">{{item.name}}</text>
+      </view>
+     <view>
+       <text>
+         {{item.breed}}
+       </text>
+     </view>
+     <view>
+       <text>
+         upcoming bookings: {{item.bookings[-1]}}
+       </text>
+     </view>
+      <button>
+        health records
+      </button>
       
     </swiper-item>
   </block>

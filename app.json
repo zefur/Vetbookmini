@@ -6,7 +6,9 @@
     "pages/dash/dash",
     "pages/booking/booking",
     "pages/pets/pets",
-    "pages/clinics/clinics"
+    "pages/clinics/clinics",
+    "pages/record/record",
+    "pages/clinic/clinic"
   ],
   "window":{
     "backgroundTextStyle":"light",

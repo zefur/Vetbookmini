@@ -19,7 +19,21 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
+    let page = this;
+    wx.request({
+      url: "localhost:3000/api/v1/clinics",
+      method: 'GET',
+      success(res) {
+        const pets = res.data.pets;
 
+        // Update local data
+        page.setData({
+          pets: pets
+        });
+        console.log(clinics)
+        wx.hideToast();
+      }
+    });
   },
 
   /**

@@ -1,6 +1,6 @@
 <!--pages/booking/booking.wxml-->
 <text>pages/booking/booking.wxml</text>
-<block wx:for={{bookings}}>
+<block wx:for="{{bookings}}" wx:key="item">
   <view class="card">
     <text>
       {{item.clinic}}
@@ -9,7 +9,7 @@
       {{item.date}}
     </text>
     <text>
-      {{item.date}}
+      {{item.time}}
     </text>
     <text>
       {{item.vet}}
