@@ -1,8 +1,6 @@
 <!--pages/dash/dash.wxml-->
 <view class="img-cont">
-<image class="avatar">Avatar goes here</image></view>
-
-
+<image class="avatar" url="{{globalData.userInfo.avatarUrl}}" >Avatar goes here</image></view>
 
 <view class="section">
   <navigator url="/pages/clinics/clinics">

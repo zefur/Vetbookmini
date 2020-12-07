@@ -70,6 +70,12 @@
         {
           "name": "pages/pets/pets",
           "pathName": "pages/pets/pets",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/clinic/clinic",
+          "pathName": "pages/clinic/clinic",
           "scene": null
         }
       ]

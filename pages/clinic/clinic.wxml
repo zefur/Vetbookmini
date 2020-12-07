@@ -3,7 +3,7 @@
 <view>
 </view>
 <view>
-<block wx:for="{{vets}}">
+<!-- <block wx:for="{{vets}}"> -->
   <view class="card-product">
   <image src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
   <view class="card-product-infos">
@@ -13,5 +13,5 @@
 </view>
 
 
-</block>
+<!-- </block> -->
 </view>
